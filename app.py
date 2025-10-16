@@ -9,4 +9,5 @@ def convert(kzt):
     return jsonify({'KZT': kzt, 'USD': usd})
 
 if _name_ == '_main_':
+
     app.run(debug=True)
